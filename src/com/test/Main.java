@@ -20,10 +20,10 @@ public class Main {
         if (delta > 0) {
             int x1 = (((b * -1) + (int) Math.sqrt(delta)) / (2 * a));
             int x2 = (((b * -1) - (int) Math.sqrt(delta)) / (2 * a));
-            System.out.println(" Ze względu na fakt, że delta jest większa od zera istnieją dwa rozwiązania: " + x1 + " lub " + x2);
+            System.out.println(" Ze względu na to, że delta jest większa od zera istnieją dwa rozwiązania: " + x1 + " lub " + x2);
         } else if (delta == 0) {
             int x = (b * -1) / (2 * a);
-            System.out.println("Ze względu na fakt, że delta wynosi zero, rozwiązanie jest tylko jedno: " + x);
+            System.out.println("Ze względu na to, że delta jest równa zero, rozwiązanie jest tylko jedno: " + x);
         } else {
             System.out.println("Przykro mi, podałeś złe dane, więc znalezienie rozwiązania nie jest możliwe.");
         }
